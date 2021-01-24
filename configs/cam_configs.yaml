@@ -4,9 +4,9 @@ settings:
   checkpoint: "./models/deepsort/deep/checkpoint/ckpt.t7"
   cam:
     cam_04:
-      video: '/content/drive/MyDrive/v2_vehicle_counting_EfficientDet/datasets/videos/cam_04.mp4'
-      boxes: '/content/drive/MyDrive/v2_vehicle_counting_EfficientDet/results/detection/cam_04'
-      zone: '/content/drive/MyDrive/v2_vehicle_counting_EfficientDet/datasets/annotations/cam_04.json'
+      video: './datasets/videos/cam_04.mp4'
+      boxes: './results/detection/cam_04'
+      zone: './datasets/annotations/cam_04.json'
       tracking_config:
         MAX_DIST: 0.3
         MIN_CONFIDENCE: 0.5
@@ -16,9 +16,9 @@ settings:
         N_INIT: 4
         NN_BUDGET: 60
     cam_05:
-      video: '/content/drive/MyDrive/v2_vehicle_counting_EfficientDet/datasets/videos/cam_05.mp4'
-      boxes: '/content/drive/MyDrive/v2_vehicle_counting_EfficientDet/results/detection/cam_05'
-      zone: '/content/drive/MyDrive/v2_vehicle_counting_EfficientDet/datasets/annotations/cam_04.json'
+      video: './datasets/videos/cam_05.mp4'
+      boxes: './results/detection/cam_05'
+      zone: './datasets/annotations/cam_04.json'
       tracking_config:
         MAX_DIST: 0.3
         MIN_CONFIDENCE: 0.5
